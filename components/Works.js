@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { url } from '../src/utils/config'
 
 export default function Works() {
   return (
