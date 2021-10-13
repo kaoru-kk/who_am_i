@@ -113,6 +113,14 @@
   margin-left: 0.5rem;
 }
 
+/* add */
+.title_xl_container {
+  height: 800px;
+}
+.title_xl {
+  font-size: 15vh;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
