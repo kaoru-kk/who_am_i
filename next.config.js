@@ -3,4 +3,5 @@ module.exports = {
   assetPrefix: urlPrefix,
   basePath: urlPrefix,
   trailingSlash: true,
+  publicRuntimeConfig: { urlPrefix },
 };

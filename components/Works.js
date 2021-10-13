@@ -7,7 +7,7 @@ export default function Works() {
 
       <div data-scroll data-scroll-speed="4" className="picture-container">
         <Image 
-          src='/images/wankoinsoba.jpg'
+          src={url('/images/wankoinsoba.jpg')}
           className="picture"
           width={100}
           height={100}
