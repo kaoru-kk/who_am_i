@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { url } from '../src/utils/config'
 
 export default function Works() {
   return (
@@ -8,7 +7,7 @@ export default function Works() {
 
       <div data-scroll data-scroll-speed="4" className="picture-container">
         <Image 
-          src={url('/images/wankoinsoba.jpg')}
+          src='/images/wankoinsoba.jpg'
           className="picture"
           width={100}
           height={100}

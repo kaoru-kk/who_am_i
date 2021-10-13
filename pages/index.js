@@ -1,39 +1,18 @@
-import Link from 'next/link'
+import React, { useState } from 'react';
+import SectionContainer from '../organisms/SectionContainer';
+import NowLoading from '../organisms/NowLoading';
 
-import ContentsGuide from '../components/ContentsGuide'
-import Career  from '../components/Career'
-import Works from '../components/Works'
-import GoToTop from '../components/GoToTop'
-import ManyTape from '../components/ManyTape'
-export default function IndexPage() {
+export default function Loading() {
 
+  const [isNowLoad, setIsNowLoad] = useState(false);
 
   return (
-    <div>
-      <div data-scroll-section>
-        
-        <ContentsGuide />
-
-        <section>
-          <h1 data-scroll data-scroll-speed="1">
-            NextJS with Locomotive Scroll&nbsp;
-            <span role="img" aria-label="rocket emoji">
-              🚀
-            </span>
-          </h1>
-        </section>
-
-        <div className='testset' >
-        </div>
-
-        <Career />
-        <ManyTape />
-        <Works />
-        <GoToTop />
-      </div>
-
-    </div>
+    <>
+      { isNowLoad ? (
+        <SectionContainer />
+      ) : (
+        <NowLoading />
+      )}
+    </>
   )
-}
-
-IndexPage.displayName = 'IndexPage'
+};

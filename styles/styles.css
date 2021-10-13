@@ -2,6 +2,7 @@
 body {
   overflow: hidden;
   font-family: 'Helvetica', sans-serif;
+  background-color: lightseagreen;
 }
 
 p {
@@ -80,10 +81,6 @@ html.has-scroll-dragging {
   cursor: grabbing;
 }
 
-.container {
-  padding: 30px 40px;
-}
-
 .picture-container {
   margin: 40px 0;
   width: 100%;
@@ -94,6 +91,7 @@ html.has-scroll-dragging {
 .picture {
   width: 100%;
   height: 100%;
+  text-align: center;
   object-fit: cover;
 }
 
@@ -176,6 +174,22 @@ html.has-scroll-dragging {
 #carrer {
   height: 800px;
   background-color: skyblue;
+}
+
+#loading {
+  background-color: lightseagreen;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 90px;
+}
+
+.loadingBarContainer {
+  transform: scale(-1, -1);
+}
+
+.loadingBar {
+  margin: 120px auto;
 }
 
 .testset {
