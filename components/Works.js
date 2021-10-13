@@ -11,6 +11,7 @@ export default function Works() {
           className="picture"
           width={100}
           height={100}
+          alt='wanko_soba'
         />
       </div>
     </section>

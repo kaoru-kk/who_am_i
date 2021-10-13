@@ -7,7 +7,6 @@ function Data() {
       {period: '2016.04 - 2020.03', place: 'university: KGU SPS', detail: 'Media and Information Studies'},
       {period: '2018.04 - 2020.01', place: 'infratop', detail: 'DMM WEBCAMP: mentor and engineer intern'},
       {period: '2020.05 - now', place: 'PECO', detail: 'pet company. i love dog!'}
-      // {period: '', place: '', detail: ''}
     ]
   );
 };
@@ -25,31 +24,47 @@ function Table({ columns, data }) {
     data,
   })
 
+  // https://github.com/tannerlinsley/react-table/discussions/2647
   return (
     <table {...getTableProps()}>
       <thead>
-        {headerGroups.map(headerGroup => (
-          <tr {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map(column => (
-              <th {...column.getHeaderProps()}>{column.render('Header')}</th>
-            ))}
-          </tr>
-        ))}
-      </thead>
-      <tbody {...getTableBodyProps()}>
-        {rows.map((row, i) => {
-          prepareRow(row)
+        {headerGroups.map((headerGroup) => {
+          const { key, ...restHeaderGroupProps } =
+            headerGroup.getHeaderGroupProps();
           return (
-            <tr {...row.getRowProps()}>
-              {row.cells.map(cell => {
-                return <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
+            <tr key={key} {...restHeaderGroupProps}>
+              {headerGroup.headers.map((column) => {
+                const { key, ...restColumn } = column.getHeaderProps();
+                return (
+                  <th key={key} {...restColumn}>
+                    {column.render("Header")}
+                  </th>
+                );
               })}
             </tr>
-          )
+          );
+        })}
+      </thead>
+      <tbody {...getTableBodyProps}>
+        {rows.map((row) => {
+          prepareRow(row);
+          const { key, ...restRowProps } = row.getRowProps();
+          return (
+            <tr key={key} {...restRowProps}>
+              {row.cells.map((cell) => {
+                const { key, ...restCellProps } = cell.getCellProps();
+                return (
+                  <td key={key} {...restCellProps}>
+                    {cell.render("Cell")}
+                  </td>
+                );
+              })}
+            </tr>
+          );
         })}
       </tbody>
     </table>
-  )
+  );
 }
 
 export default function Carrer() {

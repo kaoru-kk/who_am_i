@@ -20,15 +20,15 @@ export default function ContentsGuide() {
   }
 
   return (
-    <section id="contents_guide" data-scroll-position="top" id='top-part'>
-      <a href="#second-part" onClick={goToCarrerPart}>
-        Go to second part
+    <section id="contents_guide" data-scroll-position="top">
+      <a href="#carrer" onClick={goToCarrerPart}>
+        Go to carrer part
       </a>
 
       <p/>
 
       <a href="#works" onClick={goToWorksPart}>
-        Go to third part
+        Go to works part
       </a>
 
       <p/>
