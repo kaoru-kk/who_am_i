@@ -26,8 +26,8 @@ jobs:
         env:
           URL_PREFIX: who_am_i
 
-      - name: start Next.js app
-        run: npm run start
+      - name: export Next.js app
+        run: npm run export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
