@@ -5,7 +5,7 @@ function Data() {
   return (
     [
       {period: '2016.04 - 2020.03', place: 'university: KGU SPS', detail: 'Media and Information Studies'},
-      {period: '2018.04 - 2020.01', place: 'infratop', detail: 'DMM WEBCAMP: mentor and engineer intern'},
+      {period: '2018.04 - 2020.01', place: 'infratop', detail: 'mentor and engineer intern at DMM WEBCAMP'},
       {period: '2020.05 - now', place: 'PECO', detail: 'pet company. i love dog!'}
     ]
   );
@@ -74,7 +74,7 @@ export default function Carrer() {
         Header: 'CAREER',
         columns: [
           {
-            Header: 'period',
+            Header: '',
             accessor: 'period',
           },
           {

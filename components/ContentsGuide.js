@@ -8,6 +8,11 @@ export default function ContentsGuide() {
     event.preventDefault()
     scroll && scroll.scrollTo('#carrer')
   }
+  
+  const goToContactPart = (event) => {
+    event.preventDefault()
+    scroll && scroll.scrollTo('#contact')
+  }
 
   const goToWorksPart = (event) => {
     event.preventDefault()
@@ -21,19 +26,20 @@ export default function ContentsGuide() {
 
   return (
     <section id="contents_guide" data-scroll-position="top">
-      <a href="#carrer" onClick={goToCarrerPart}>
+      <a href="#carrer" onClick={goToCarrerPart} className='contents_guide_link'>
         Go to carrer part
       </a>
 
-      <p/>
+      <a href="#contact" onClick={goToContactPart} className='contents_guide_link'>
+        Go to contact part
+      </a>
 
-      <a href="#works" onClick={goToWorksPart}>
+
+      <a href="#works" onClick={goToWorksPart} className='contents_guide_link'>
         Go to works part
       </a>
 
-      <p/>
-
-      <a href="#many_tape" onClick={goToManyTapePart}>
+      <a href="#many_tape" onClick={goToManyTapePart} className='contents_guide_link'>
         Go to many_tape part
       </a>
     </section>
