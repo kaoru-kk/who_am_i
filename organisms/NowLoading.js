@@ -18,7 +18,7 @@ export default function NowLoading() {
     
     setTimeout(() => {
       scroll && scroll.scrollTo('#contents_guide')
-    }, 3500);
+    }, 3700);
 
   // }, [scroll]);
 
@@ -26,18 +26,18 @@ export default function NowLoading() {
     <section id='loading'>
       <Image 
         src='/images/loading.gif'
-        className="picture"
+        className="loading_gif"
         width={900}
-        height={500}
+        height={450}
         alt='wanko_soba'
       />
-      <div className='loadingBarContainer'>
+      <div className='loading_bar_container'>
         <ReactLoading 
           type="bars"
           color='white'
-          width={230} 
-          height={140}
-          className='loadingBar'
+          width={200} 
+          height={110}
+          className='loading_bar'
         />
       </div>
     </section>
