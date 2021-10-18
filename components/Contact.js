@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Contact() {
   return (
     <section id="contact">
-      <div className='contact_scroll_wrapper' data-scroll-section data-scroll-speed="6">
+      <div className='contact_scroll_wrapper' data-scroll data-scroll-speed="4">
 
         <div className='contact_container'>
           <p className='email'>Email: kkaoru891@gmail.com</p>

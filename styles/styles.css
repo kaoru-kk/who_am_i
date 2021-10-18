@@ -233,8 +233,7 @@ html.has-scroll-dragging {
 
 .contents_guide_container {
   text-align: right;
-  margin: 80px;
-  margin-right: 300px;
+  margin: 80px 300px 200px 0px;
 }
 
 .contents_guide_container ul {

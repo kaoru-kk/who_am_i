@@ -27,7 +27,7 @@ export default function ContentsGuide() {
   return (
     <section id="contents_guide" data-scroll-position="top">
 
-      <div className='contents_guide_container'>
+      <div className='contents_guide_container' data-scroll data-scroll-speed="-2.4">
           <ul>
             <li className='contents_guide_list'>
               <a href="#carrer" onClick={goToCarrerPart} className='contents_guide_link'>
