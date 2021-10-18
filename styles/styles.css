@@ -40,11 +40,7 @@ html.has-scroll-dragging {
   overflow: hidden;
 }
 
-.has-scroll-smooth [data-scroll-container] {
-  min-height: 100vh;
-}
-
-.c-scrollbar {
+/* .c-scrollbar {
   position: absolute;
   right: 0;
   top: 0;
@@ -53,9 +49,9 @@ html.has-scroll-dragging {
   transform-origin: center right;
   transition: transform 0.3s, opacity 0.3s;
   opacity: 0;
-}
+} */
 
-.c-scrollbar:hover {
+/* .c-scrollbar:hover {
   transform: scaleX(1.45);
 }
 
@@ -76,7 +72,7 @@ html.has-scroll-dragging {
   margin: 2px;
   cursor: -webkit-grab;
   cursor: grab;
-}
+} */
 
 .has-scroll-dragging .c-scrollbar_thumb {
   cursor: -webkit-grabbing;
@@ -189,7 +185,6 @@ html.has-scroll-dragging {
 
 /* carrer */
 #carrer {
-  height: 800px;
   /* background-color: skyblue; */
 }
 
@@ -198,19 +193,25 @@ html.has-scroll-dragging {
   margin: 0 auto;
 }
 
-#carrer th, #carrer td {
+#carrer th {
   padding: 20px;
 }
 
+#carrer td {
+  padding: 40px 20px;
+}
 /* contact */
 #contact {
-  height: 1000px;
   width: 100%;
+}
+
+.contact_scroll_wrapper {
+  height: 800px;
 }
 
 .contact_container {
   text-align: center;
-  margin: 0 auto;
+  margin: 400px auto 0 auto;
 
   background-color: white;
   color: black;
@@ -228,15 +229,31 @@ html.has-scroll-dragging {
   padding-right: 40px;
 }
 
-.testset {
-  height: 1000px;
-  /* background-color: springgreen; */
-}
-
 /* contents_guide */
 
+.contents_guide_container {
+  text-align: right;
+  margin: 80px;
+  margin-right: 300px;
+}
+
+.contents_guide_container ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.contents_guide_list {
+  margin-top: 30px;
+  list-style: none;
+  width: 300px;
+}
+
+.contents_guide_list:first-child {
+  transition-delay: .1s;
+}
+
 .contents_guide_link {
-  display: block;
   color: white;
-  padding: 10px;
+  font-size: 5vh;
+  text-transform: uppercase;
 }

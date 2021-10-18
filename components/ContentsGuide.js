@@ -26,22 +26,37 @@ export default function ContentsGuide() {
 
   return (
     <section id="contents_guide" data-scroll-position="top">
-      <a href="#carrer" onClick={goToCarrerPart} className='contents_guide_link'>
-        Go to carrer part
-      </a>
 
-      <a href="#contact" onClick={goToContactPart} className='contents_guide_link'>
-        Go to contact part
-      </a>
+      <div className='contents_guide_container'>
+          <ul>
+            <li className='contents_guide_list'>
+              <a href="#carrer" onClick={goToCarrerPart} className='contents_guide_link'>
+                01.Carrer　　　　　　　　　　 　
+              </a>
+            </li>
+
+            <li className='contents_guide_list'>
+              <a href="#contact" onClick={goToContactPart} className='contents_guide_link'>
+                02.Contact　　　　　　　　　　　
+              </a>
+            </li>
+
+            <li className='contents_guide_list'>
+              <a href="#works" onClick={goToWorksPart} className='contents_guide_link'>
+                03.Works　　　　　　　　　　　　
+              </a>
+            </li>
+
+            <li className='contents_guide_list'>
+              <a href="#many_tape" onClick={goToManyTapePart} className='contents_guide_link'>
+                04.next　　　　　　　　　　　　　
+              </a>
+            </li>
+          </ul>
+
+      </div>
 
 
-      <a href="#works" onClick={goToWorksPart} className='contents_guide_link'>
-        Go to works part
-      </a>
-
-      <a href="#many_tape" onClick={goToManyTapePart} className='contents_guide_link'>
-        Go to many_tape part
-      </a>
     </section>
   )
 }
