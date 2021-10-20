@@ -8,17 +8,15 @@ import Contact from '../components/Contact'
 export default function SectionContainer() {
 
   return (
-    <div>
-        <div className='testset' >
-        </div>
-        <ContentsGuide />
+    <>
+      <ContentsGuide />
+      <Career />
+      <Works />
+      <ManyTape />
+      <Contact />
 
-        <Career />        
-        <Contact />
-        <Works />
+      <GoToTop />
 
-        <ManyTape />
-        <GoToTop />
-    </div>
+    </>
   )
 }

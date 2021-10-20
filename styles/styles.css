@@ -11,20 +11,6 @@ p {
   line-height: 1.5;
 }
 
-table {
-  border-collapse: collapse;
-}
-
-th, td {
-  margin: 0;
-  padding: 0.5rem;
-
-  padding: 10px 20px;
-  text-align: center;
-
-  border-bottom: 1px solid #A28C63;
-}
-
 html.has-scroll-smooth {
   overflow: hidden;
 }
@@ -77,6 +63,10 @@ html.has-scroll-dragging {
 .has-scroll-dragging .c-scrollbar_thumb {
   cursor: -webkit-grabbing;
   cursor: grabbing;
+}
+
+.contents_header {
+  text-align: center;
 }
 
 
@@ -170,12 +160,29 @@ html.has-scroll-dragging {
   color: black;
 }
 
-#top-part {
+/* works */
+#works {
+  /* tape層と被せないため */
+  margin-bottom: 290px;
+  width: 100%;
 }
 
-#works {
-  height: 1000px;
-  background-color: black;
+.works_container {
+  /* display: flex; */
+  text-align: center;
+}
+
+.works_other_wrapper {
+  margin-top: 80px;
+}
+
+.works_other_wrapper p {
+  /* text-align: left; */
+  font-size: 2.4vh;;
+}
+
+.works_wrapper {
+  /* margin-left: 50px; */
 }
 
 #many_tape {
@@ -184,24 +191,34 @@ html.has-scroll-dragging {
 }
 
 /* carrer */
+
 #carrer {
-  /* background-color: skyblue; */
+  margin-top: 400px;
 }
 
 #carrer table {
+  border-collapse: collapse;
   text-align: center;
   margin: 0 auto;
 }
 
 #carrer th {
   padding: 20px;
+  border-bottom: none;
 }
 
 #carrer td {
   padding: 40px 20px;
+  margin: 0;
+  text-align: center;
+  border-top: 1px solid #A28C63;
+  border-bottom: 1px solid #A28C63;
 }
+
 /* contact */
 #contact {
+  /* tape層と被せないため */
+  margin-top: 290px;
   width: 100%;
 }
 
@@ -211,8 +228,7 @@ html.has-scroll-dragging {
 
 .contact_container {
   text-align: center;
-  margin: 400px auto 0 auto;
-
+  margin: 50px auto 0 auto;
   background-color: white;
   color: black;
   padding: 5%;
@@ -233,7 +249,7 @@ html.has-scroll-dragging {
 
 .contents_guide_container {
   text-align: right;
-  margin: 80px 300px 200px 0px;
+  margin: 200px 400px 200px 0px;
 }
 
 .contents_guide_container ul {
@@ -256,3 +272,26 @@ html.has-scroll-dragging {
   font-size: 5vh;
   text-transform: uppercase;
 }
+
+/* go to top */
+
+/* #go_to_top {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
+#go_to_top a {
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+}
+#go_to_top a::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f139';
+  font-size: 50px;
+  color: #3fefee;
+} */

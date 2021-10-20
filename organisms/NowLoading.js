@@ -16,9 +16,9 @@ export default function NowLoading() {
 
   // useEffect(() => {
     
-    setTimeout(() => {
-      scroll && scroll.scrollTo('#contents_guide')
-    }, 3700);
+    // setTimeout(() => {
+    //   scroll && scroll.scrollTo('#contents_guide')
+    // }, 3700);
 
   // }, [scroll]);
 

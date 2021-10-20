@@ -19,11 +19,6 @@ export default function ContentsGuide() {
     scroll && scroll.scrollTo('#works')
   }
 
-  const goToManyTapePart = (event) => {
-    event.preventDefault()
-    scroll && scroll.scrollTo('#many_tape')
-  }
-
   return (
     <section id="contents_guide" data-scroll-position="top">
 
@@ -31,25 +26,19 @@ export default function ContentsGuide() {
           <ul>
             <li className='contents_guide_list'>
               <a href="#carrer" onClick={goToCarrerPart} className='contents_guide_link'>
-                01.Carrer　　　　　　　　　　 　
-              </a>
-            </li>
-
-            <li className='contents_guide_list'>
-              <a href="#contact" onClick={goToContactPart} className='contents_guide_link'>
-                02.Contact　　　　　　　　　　　
+                01.carrer　　　　　　　　　　 　
               </a>
             </li>
 
             <li className='contents_guide_list'>
               <a href="#works" onClick={goToWorksPart} className='contents_guide_link'>
-                03.Works　　　　　　　　　　　　
+                02.works　　　　　　　　　　　　
               </a>
             </li>
 
             <li className='contents_guide_list'>
-              <a href="#many_tape" onClick={goToManyTapePart} className='contents_guide_link'>
-                04.next　　　　　　　　　　　　　
+              <a href="#contact" onClick={goToContactPart} className='contents_guide_link'>
+                03.contact　　　　　　　　　　　
               </a>
             </li>
           </ul>
