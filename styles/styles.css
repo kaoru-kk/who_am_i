@@ -1,7 +1,8 @@
 /*! locomotive-scroll v3.6.1 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
 body {
   overflow: hidden;
-  font-family: 'Helvetica', sans-serif;
+  /* font-family: 'Helvetica', sans-serif; */
+  font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif";
   background-color: lightseagreen;
   font-size: 3vh;
   color: white;
@@ -69,7 +70,34 @@ html.has-scroll-dragging {
   text-align: center;
 }
 
+/* contents_guide */
 
+.contents_guide_container {
+  text-align: right;
+  margin: 200px 400px 200px 0px;
+}
+
+.contents_guide_container ul {
+  display: inline-block;
+  text-align: left;
+}
+
+.contents_guide_list {
+  margin-top: 30px;
+  list-style: none;
+  width: 300px;
+}
+
+.contents_guide_list:first-child {
+  transition-delay: .1s;
+}
+
+.contents_guide_link {
+  color: white;
+  font-size: 5vh;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 /* loading */
 #loading {
@@ -146,9 +174,6 @@ html.has-scroll-dragging {
 
 .cautionBarContainer.six {
   top: 80%;
-  /* transform: translateX(-5vw) rotate(
-    3deg
-  ); */
 }
 
 
@@ -170,24 +195,20 @@ html.has-scroll-dragging {
 .works_container {
   /* display: flex; */
   text-align: center;
+  margin-top: 50px;
 }
 
 .works_other_wrapper {
   margin-top: 80px;
 }
 
-.works_other_wrapper p {
-  /* text-align: left; */
-  font-size: 2.4vh;;
+.works_container p, .works_other_wrapper p {
+  font-size: 2.7vh;;
 }
 
-.works_wrapper {
-  /* margin-left: 50px; */
-}
-
+/* many_tape */
 #many_tape {
   height: 1000px;
-  /* background-color: royalblue; */
 }
 
 /* carrer */
@@ -204,6 +225,8 @@ html.has-scroll-dragging {
 
 #carrer th {
   padding: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
   border-bottom: none;
 }
 
@@ -213,6 +236,8 @@ html.has-scroll-dragging {
   text-align: center;
   border-top: 1px solid #A28C63;
   border-bottom: 1px solid #A28C63;
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 /* contact */
@@ -226,72 +251,30 @@ html.has-scroll-dragging {
   height: 800px;
 }
 
+.contact_title {
+  text-align: center;
+}
+
 .contact_container {
   text-align: center;
   margin: 50px auto 0 auto;
   background-color: white;
   color: black;
-  padding: 5%;
+  padding: 4.9%;
   width: 680px;
-  height: 280px;
-  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  height: 180px;
+  border-radius: 30% 70% 30% 80%/50% 40% 80% 60%;
 }
 
 .email {
-  font-size: 5vh;
+  margin-top: 10px;
+  font-size: 4.5vh;
+  font-weight: bold;
 }
 
 .gihub_link {
-  padding-right: 40px;
+  padding-right: 90px;
 }
 
-/* contents_guide */
-
-.contents_guide_container {
-  text-align: right;
-  margin: 200px 400px 200px 0px;
-}
-
-.contents_guide_container ul {
-  display: inline-block;
-  text-align: left;
-}
-
-.contents_guide_list {
-  margin-top: 30px;
-  list-style: none;
-  width: 300px;
-}
-
-.contents_guide_list:first-child {
-  transition-delay: .1s;
-}
-
-.contents_guide_link {
-  color: white;
-  font-size: 5vh;
-  text-transform: uppercase;
-}
 
 /* go to top */
-
-/* #go_to_top {
-  width: 60px;
-  height: 60px;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  opacity: 0.6;
-}
-#go_to_top a {
-  width: 60px;
-  height: 60px;
-  text-decoration: none;
-}
-#go_to_top a::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 900;
-  content: '\f139';
-  font-size: 50px;
-  color: #3fefee;
-} */
