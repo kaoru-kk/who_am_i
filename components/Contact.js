@@ -11,7 +11,7 @@ export default function Contact() {
 
           <div className='contact_logo_container'>
 
-            <a href='https://github.com/kaoru-kk' className='gihub_link' target='_blank'>
+            <a href='https://github.com/kaoru-kk' className='gihub_link' target='_blank' rel="noopener noreferrer">
               <Image 
                 src='/images/octocat.png'
                 className="octocat"
@@ -21,7 +21,7 @@ export default function Contact() {
               />
             </a>
 
-            <a href='https://twitter.com/inu_kawae_1' target='_blank'>
+            <a href='https://twitter.com/inu_kawae_1' target='_blank' rel="noopener noreferrer">
               <Image 
                 src='/images/twitter.png'
                 className="twitter"
