@@ -128,11 +128,36 @@ html.has-scroll-dragging {
   font-size: 20vh;
 }
 
+/* works */
+#works {
+  /* tape層と被せないため */
+  margin-top: 370px;
+  margin-bottom: 390px;
+  width: 100%;
+}
+
+.works_container {
+  /* display: flex; */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.works_other_wrapper {
+  margin-top: 80px;
+}
+
+.works_container p, .works_other_wrapper p {
+  font-size: 2.7vh;;
+}
+
 /* many_tape */
+#many_tape {
+  height: 1000px;
+}
 
 .cautionBarContainer {
   position: absolute;
-  font-size: 10vw;
+  font-size: 9vw;
   white-space: nowrap;
   font-weight: 600;
   text-transform: uppercase;
@@ -186,33 +211,6 @@ html.has-scroll-dragging {
   color: black;
 }
 
-/* works */
-#works {
-  /* tape層と被せないため */
-  margin-top: 370px;
-  margin-bottom: 390px;
-  width: 100%;
-}
-
-.works_container {
-  /* display: flex; */
-  text-align: center;
-  margin-top: 50px;
-}
-
-.works_other_wrapper {
-  margin-top: 80px;
-}
-
-.works_container p, .works_other_wrapper p {
-  font-size: 2.7vh;;
-}
-
-/* many_tape */
-#many_tape {
-  height: 1000px;
-}
-
 /* carrer */
 
 #carrer {
@@ -245,7 +243,7 @@ html.has-scroll-dragging {
 /* contact */
 #contact {
   /* tape層と被せないため */
-  margin-top: 350px;
+  margin-top: 450px;
   width: 100%;
 }
 

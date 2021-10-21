@@ -15,7 +15,7 @@ export default function ManyTape() {
               data-scroll-direction="horizontal"
               data-scroll-speed="6"
               data-scroll-target="#many_tape"
-            >AND THE BEATS GO ON.</span>
+            >AND THE BEATS GO ON. AND THE BEATS GO ON.</span>
           </div>
 
           <div className="cautionBarContainer two">
@@ -25,7 +25,7 @@ export default function ManyTape() {
               data-scroll-direction="horizontal"
               data-scroll-speed="-8"
               data-scroll-target="#many_tape"
-              >AND THE BEATS GO ON.</span>
+              >I LIKE SUSHI. I LIKE SUSHI.</span>
           </div>
 
           <div className="cautionBarContainer three">
@@ -35,7 +35,7 @@ export default function ManyTape() {
               data-scroll-direction="horizontal"
               data-scroll-speed="9"
               data-scroll-target="#many_tape"
-            >I LIKE SUSHI</span>
+            >AND THE BEATS GO ON. AND THE BEATS GO ON.</span>
           </div>
 
           <div className="cautionBarContainer four">
