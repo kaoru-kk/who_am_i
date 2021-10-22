@@ -10,7 +10,7 @@ export default function Header() {
       <meta property="og:title" content="Kaoru&apos;s Portfolio" />
       <meta property="og:description" content="My name is Kaoru k. i&apos;m softwaer enginerr!" />
       <meta property="og:url" content="https://who-am-i-k4oru.vercel.app/" />
-      <meta property="og:image" content="https://who-am-i-k4oru.vercel.app/" />
+      <meta property="og:image" content="https://who-am-i-k4oru.vercel.app/images/ogp.jpg" />
       <meta property="twitter:image" content="https://who-am-i-k4oru.vercel.app/images/ogp.jpg" />
     </Head>
   )
