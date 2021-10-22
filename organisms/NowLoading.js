@@ -9,6 +9,7 @@ export default function NowLoading() {
 
   // useEffect(() => {
     
+    // ここべたがきOK? TOD
     setTimeout(() => {
       scroll && scroll.scrollTo('#contents_guide')
     }, 3700);

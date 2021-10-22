@@ -22,10 +22,10 @@ export default function ContentsGuide() {
   return (
     <section id="contents_guide" data-scroll-position="top">
 
-      <div className='contents_guide_container' data-scroll data-scroll-speed="-2.4">
+      <div className='contents_guide_container' data-scroll data-scroll-speed="1">
           <ul>
             <li className='contents_guide_list'>
-              <a href="#carrer" onClick={goToCarrerPart} className='contents_guide_link'>
+              <a href="#carrer" onClick={goToCarrerPart} className='contents_guide_link' data-scroll data-scroll-delay="0.1">
                 01.carrer　　　　　　　　　　 　
               </a>
             </li>
@@ -42,10 +42,7 @@ export default function ContentsGuide() {
               </a>
             </li>
           </ul>
-
       </div>
-
-
     </section>
   )
 }

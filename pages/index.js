@@ -2,10 +2,10 @@ import React from 'react';
 import SectionContainer from '../organisms/SectionContainer';
 import NowLoading from '../organisms/NowLoading';
 
-export default function Loading() {
+export default function Index() {
 
   return (
-    <div data-scroll-section>
+    <div>
       <NowLoading />
       <SectionContainer />
     </div>
