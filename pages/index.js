@@ -5,9 +5,15 @@ import NowLoading from '../organisms/NowLoading';
 export default function Index() {
 
   return (
-    <div>
-      <NowLoading />
-      <SectionContainer />
-    </div>
+    <>
+      <div class='is_sp'>
+        <p>Smartphone ver is currently under construction. </p>
+        <p>Please watch PC (-_-)</p>
+      </div>
+      <div class='is_pc'>
+        <NowLoading />
+        <SectionContainer />
+      </div>
+    </>
   )
 };

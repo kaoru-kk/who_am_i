@@ -11,7 +11,21 @@ p {
   line-height: 1.5;
 }
 
-/* these use anywhere */
+.is_sp {
+  display: none;
+}
+
+@media (max-width: 1124px) {
+  .is_pc {
+    display: none;
+  }
+
+  .is_sp {
+    display: block;
+    font-weight: bold;
+    font-size: 10vh;
+  }
+}
 
 .contents_header {
   text-align: center;
