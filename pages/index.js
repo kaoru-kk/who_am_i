@@ -6,11 +6,11 @@ export default function Index() {
 
   return (
     <>
-      <div class='is_sp'>
+      <div className='is_sp'>
         <p>Smartphone ver is currently under construction. </p>
         <p>Please watch PC (-_-)</p>
       </div>
-      <div class='is_pc'>
+      <div className='is_pc'>
         <NowLoading />
         <SectionContainer />
       </div>
