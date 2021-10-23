@@ -1,4 +1,10 @@
 /*! locomotive-scroll v3.6.1 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+
+@font-face {
+  font-family: 'cod';
+  src: url('/fonts/cod.otf');
+}
+
 body {
   overflow: hidden;
   font-family: "YuGothic","Yu Gothic","Meiryo","ヒラギノ角ゴ","sans-serif";
@@ -29,6 +35,9 @@ p {
 
 .contents_header {
   text-align: center;
+  font-size: 7vh;
+  font-family: 'cod';
+  letter-spacing: 3px;
 }
 
 /* contents_guide */
@@ -51,8 +60,9 @@ p {
 
 .contents_guide_link {
   color: white;
-  font-size: 5vh;
-  font-weight: bold;
+  font-size: 8vh;
+  font-family: 'cod';
+  letter-spacing: 3px;
   text-transform: uppercase;
   transition: background 1s;
 }
@@ -99,8 +109,9 @@ p {
 .cautionBarContainer {
   position: absolute;
   font-size: 9vw;
+  font-family: 'cod';
+  letter-spacing: 3px;
   white-space: nowrap;
-  font-weight: 600;
   text-transform: uppercase;
   line-height: 1;
   height: 300px;
@@ -198,7 +209,7 @@ p {
 }
 
 .works_other_wrapper {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .works_container p, .works_other_wrapper p {

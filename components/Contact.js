@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact">
       <div className='contact_scroll_wrapper' data-scroll data-scroll-speed="4">
         
-        <h2 className='contact_title'>CONTACT</h2>
+        <h2 className='contents_header'>CONTACT</h2>
         <div className='contact_container'>
           <p className='email'>Email:　kkaoru891@gmail.com</p>
 
