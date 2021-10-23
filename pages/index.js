@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../components/Header';
-import SectionContainer from '../organisms/SectionContainer';
-import NowLoading from '../organisms/NowLoading';
+import Header from '../templates/Header';
+import SectionContainer from '../templates/SectionContainer';
+import NowLoading from '../templates/NowLoading';
 
 export default function Index() {
 

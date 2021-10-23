@@ -97,14 +97,43 @@ p {
   object-fit: cover;
 }
 
-.gototop {
-  font-size: 20vh;
+/* introduce */
+#introduce {
+  width: 100%;
+  padding-top: 50px;
+  margin-top: 450px;
+}
+
+.introduce_contents {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.introduce_image_container {
+  margin-left: 80px;
+}
+
+.hoverText {
+  display: none;
+}
+
+.introduce_image_container:hover .hoverText{
+  display: block;
+  text-align: center;
+}
+
+.introduce_text_container {
+  margin-left: 60px;
+  padding-top: 40px;
+}
+  
+
+.introduce_text_container p {
+  font-size: 3.3vh;
 }
 
 /* many_tape */
-#many_tape {
-  height: 1000px;
-}
 
 .cautionBarContainer {
   position: absolute;
@@ -169,7 +198,8 @@ p {
 /* carrer */
 
 #carrer {
-  margin-top: 500px;
+  padding-top: 50px;
+  margin-top: 150px;
 }
 
 #carrer table {
@@ -199,8 +229,9 @@ p {
 /* works */
 #works {
   /* tape層と被せないため */
-  margin-top: 170px;
-  margin-bottom: 550px;
+  padding-top: 50px;
+  margin-top: 120px;
+  margin-bottom: 350px;
   width: 100%;
 }
 
@@ -220,7 +251,7 @@ p {
 /* contact */
 #contact {
   /* tape層と被せないため */
-  margin-top: 650px;
+  margin-top: 850px;
   width: 100%;
 }
 

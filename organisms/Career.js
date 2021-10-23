@@ -94,7 +94,7 @@ export default function Carrer() {
   const data = Data();
 
   return (
-    <section id='carrer'>
+    <section id='carrer'>        
       <Table columns={columns} data={data} />
     </section>
   )
