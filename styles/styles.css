@@ -35,7 +35,7 @@ p {
 
 .contents_header {
   text-align: center;
-  font-size: 7vh;
+  font-size: 8vh;
   font-family: 'cod';
   letter-spacing: 3px;
 }
@@ -179,10 +179,11 @@ p {
 }
 
 #carrer th {
-  padding: 20px;
-  font-size: 1.5em;
-  font-weight: bold;
+  font-size: 8vh;
+  font-family: 'cod';
+  letter-spacing: 3px;
   border-bottom: none;
+  padding: 20px;
 }
 
 #carrer td {
