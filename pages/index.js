@@ -10,7 +10,7 @@ export default function Index() {
       <Header />
       <div className='is_sp'>
         <p>Smartphone ver is currently under construction. </p>
-        <p>Please watch PC (-_-)</p>
+        <p>This website is best viewed on desktop (-_-)</p>
       </div>
       <div className='is_pc'>
         <NowLoading />
