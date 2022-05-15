@@ -4,7 +4,6 @@ import Career  from '../organisms/Career'
 import Works from '../organisms/Works'
 import ManyTape from '../organisms/ManyTape'
 import Contact from '../organisms/Contact'
-import GoToTop from '../organisms/GoToTop'
 export default function SectionContainer() {
 
   return (
@@ -15,8 +14,6 @@ export default function SectionContainer() {
       <Works />
       <ManyTape />
       <Contact />
-
-      <GoToTop />
     </>
   )
 }

@@ -22,7 +22,8 @@ export default function Works() {
         <div className='works_other_wrapper'>
           <h2 className='contents_header'>OTHER WORKS</h2>
 
-          <p>技能実習生受け入れ機関 HP, 技能実習生送り出し機関 HP, ライブ配信メディア トップページ制作</p>
+          <p>技能実習生受け入れ機関 HP, 技能実習生送り出し機関 HP</p>
+          <p>ライブ配信メディア トップページ制作, デザイン系企業 LP制作</p>
           <p>個人へのプログラミングのメンター, SEOライティング, Webサイト制作レクチャー etc</p>
           
         </div>
