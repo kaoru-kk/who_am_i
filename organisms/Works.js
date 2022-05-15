@@ -15,7 +15,7 @@ export default function Works() {
               height={350}
               alt='site1'
             />
-            <p>株式会社CORES HP</p>
+            <p>株式会社CORES HP開発</p>
           </div>
         
 
