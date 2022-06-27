@@ -20,16 +20,6 @@ export default function Contact() {
                 alt='github'
               />
             </a>
-
-            <a href='https://twitter.com/inu_kawae_1' target='_blank' rel="noopener noreferrer">
-              <Image 
-                src='/images/twitter.png'
-                className="twitter"
-                width={100}
-                height={90}
-                alt='github'
-              />
-            </a>
           </div>
         </div>
 
