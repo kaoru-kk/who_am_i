@@ -10,10 +10,10 @@ export default function Introduce() {
           <div className='introduce_image_container'>
             <Image 
               src='/images/wankoinsoba.jpg'
-              className="わんこそば"
+              className="wankoinsoba"
               width={300}
               height={400}
-              alt='wankoinsoba'
+              alt='わんこそば'
             />
             <span className='hoverText'>WANKO IN SOBA！</span>
           </div>
