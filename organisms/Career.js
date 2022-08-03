@@ -5,7 +5,7 @@ function Data() {
   return (
     [
       {period: '2016.04 - 2020.03', place: 'KGU SPS', detail: 'university,  Media and Information Studies'},
-      {period: '2018.04 - 2020.09', place: 'infratop.inc', detail: 'mentor and engineer intern at DMM WEBCAMP'},
+      {period: '2019.04 - 2020.09', place: 'infratop.inc', detail: 'mentor and engineer intern at DMM WEBCAMP'},
       {period: '2020.05 - now', place: 'PECO.inc', detail: 'system engineer (RoR, Vue, React, TypeScript)'}
     ]
   );
