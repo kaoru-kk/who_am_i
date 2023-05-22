@@ -19,10 +19,10 @@ export default function Introduce() {
           </div>
 
           <div className='introduce_text_container'>
-            <p>My name is kaoru_k and 24 years old.</p>
+            <p>My name is kaoru_k and 25 years old.</p>
             <p>Working as a Software Engineer in Tokyo.</p>
             <p>I am interested in both Frontend and Backend programming languages.</p>
-            <p>( Ex. Ruby on Rails, React.js, Vue.js )</p>
+            <p>( Ex. Ruby on Rails, React.js, Vue.js, TypeScript )</p>
           </div>
         </div>
       </div>
