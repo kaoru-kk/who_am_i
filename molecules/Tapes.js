@@ -18,7 +18,7 @@ export default function Tapes() {
             data-scroll-direction="horizontal"
             data-scroll-speed={`${tape.scrollSpeed}`}
             data-scroll-target="#many_tape"
-          >${tape.text}</span>
+          >{tape.text}</span>
         </div>
       )
     })

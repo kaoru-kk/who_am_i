@@ -114,15 +114,6 @@ p {
   margin-left: 130px;
 }
 
-.hoverText {
-  display: none;
-}
-
-.introduce_image_container:hover .hoverText{
-  display: block;
-  text-align: center;
-}
-
 .introduce_text_container {
   margin-left: 60px;
   padding-top: 40px;

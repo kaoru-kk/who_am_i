@@ -1,6 +1,24 @@
 import Image from "next/image";
 
 export default function Introduce() {
+
+  const getAge = () => {
+    const birthday = {
+      year: 1998,
+      month: 1,
+      date: 25
+    };
+
+    const today = new Date();
+    const thisYearsBirthday = new Date(today.getFullYear(), birthday.month-1, birthday.date);
+    const age = today.getFullYear() - birthday.year;
+    if(today < thisYearsBirthday){
+        //今年まだ誕生日が来ていない
+        age--;
+    }
+    return age;
+  };
+
   return (
     <section id="introduce">
       <div data-scroll data-scroll-speed="4">
@@ -15,11 +33,10 @@ export default function Introduce() {
               height={400}
               alt='わんこそば'
             />
-            <span className='hoverText'>WANKO IN SOBA！</span>
           </div>
 
           <div className='introduce_text_container'>
-            <p>My name is kaoru and 25 years old.</p>
+            <p>My name is kaoru and {getAge()} years old.</p>
             <p>Working as a Software Engineer in Tokyo.</p>
             <p>I am interested in both Frontend and Backend programming languages.</p>
             <p>( Ex. Ruby on Rails, React.js, Vue.js, TypeScript )</p>
