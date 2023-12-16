@@ -242,7 +242,7 @@ p {
 /* contact */
 #contact {
   /* tape層と被せないため */
-  margin-top: 850px;
+  /* margin-top: 850px; */
   width: 100%;
 }
 
