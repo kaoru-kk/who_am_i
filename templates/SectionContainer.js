@@ -2,7 +2,7 @@ import ContentsGuide from '../organisms/ContentsGuide'
 import Introduce from '../organisms/Introduce'
 import Career  from '../organisms/Career'
 import Works from '../organisms/Works'
-import ManyTape from '../organisms/ManyTape'
+// import ManyTape from '../organisms/ManyTape'
 import Contact from '../organisms/Contact'
 export default function SectionContainer() {
 
@@ -12,7 +12,8 @@ export default function SectionContainer() {
       <Introduce />
       <Career />
       <Works />
-      <ManyTape />
+      {/* メンテナンスなう */}
+      {/* <ManyTape /> */}
       <Contact />
     </>
   )
