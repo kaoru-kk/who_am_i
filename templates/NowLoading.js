@@ -6,7 +6,6 @@ import { useLocomotiveScroll } from 'react-locomotive-scroll'
 export default function NowLoading() {
   const { scroll } = useLocomotiveScroll()
 
-    // ここべたがきOK? TOD
     setTimeout(() => {
       scroll && scroll.scrollTo('#contents_guide')
     }, 1000);

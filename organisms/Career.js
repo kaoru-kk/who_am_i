@@ -8,7 +8,11 @@ function Data() {
       {period: '2019.04 - 2020.09', place: 'infratop.inc', detail: 'mentor and engineer intern at DMM WEBCAMP'},
       {period: '2020.05 - 2022.10', place: 'PECO.inc', detail: 'system engineer (RoR, Vue, React, TypeScript)'},
       {period: '2022.11 - now', place: 'freelance', detail: 'work at various companies'},
-      {period: '2023.11 - now', place: 'LLC.kororiku CEO', detail: 'I have my own business'}
+      {period: '2023.11 - now', place: 'LLC.kororiku CEO', detail: 
+        <>
+          I have my own business (<a href="https://kororiku.studio.site/" target='_blank' style={{"color": "white"}}>corporate site</a>).
+        </>
+      }
     ]
   );
 };
