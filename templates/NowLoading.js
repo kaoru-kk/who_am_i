@@ -4,17 +4,12 @@ import ReactLoading from 'react-loading';
 import { useLocomotiveScroll } from 'react-locomotive-scroll'
 
 export default function NowLoading() {
-  // const [isNowLoad, setIsNowLoad] = useState(false);
   const { scroll } = useLocomotiveScroll()
 
-  // useEffect(() => {
-    
     // ここべたがきOK? TOD
     setTimeout(() => {
       scroll && scroll.scrollTo('#contents_guide')
-    }, 3700);
-
-  // }, [scroll]);
+    }, 1000);
 
   return (
     <section id='loading'>
