@@ -10,7 +10,7 @@ function Data() {
       {period: '2022.11 - now', place: 'freelance', detail: 'work at various companies'},
       {period: '2023.11 - now', place: 'LLC.kororiku CEO', detail: 
         <>
-          I have my own business (<a href="https://kororiku.studio.site/" target='_blank' style={{"color": "white"}}>corporate site</a>).
+          I have my own business (<a href="https://kororiku.com/" target='_blank' style={{"color": "white"}}>corporate site</a>).
         </>
       }
     ]
